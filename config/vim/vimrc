@@ -1,0 +1,21 @@
+"Theme
+syntax enable
+
+" Basic config
+set nu
+set ai
+set cursorline
+set tabstop=4
+set expandtab
+set mouse=a
+set ruler
+set incsearch
+
+" Vundle setup
+set nocompatible
+filetype off
+set rtp+=$HOME/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+call vundle#end()
+filetype plugin indent on
